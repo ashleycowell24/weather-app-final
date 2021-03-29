@@ -56,3 +56,9 @@ li {
     font-size: 16px;
     top: -34px;
 }
+
+.btn-primary {
+    color: white;
+    background: blueviolet;
+    border: blueviolet;
+}
