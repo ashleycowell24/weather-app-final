@@ -14,44 +14,56 @@
 </head>
 <body>
     <div class="container">
-        <h1>
-            Toronto
-        </h1>
-        <ul>
-            <li>
-                Friday 6:00
-            </li>
-            <li>
-                Clear
-            </li>
-        </ul>
-        <div class="row">
-            <div class="col-6">
-                <img src=""
-                alt="Clear"
-                />
-                12°C | °F    
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+                <div class="overview">
+                    <h1>
+                        Toronto
+                    </h1>
+                    <ul>
+                        <li>
+                            Friday 6:00
+                        </li>
+                        <li>
+                            Clear
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                <div class="col-6">
+                    <div class="clearfix weather-temperature">
+                        <img src=""
+                             alt="Clear"
+                             class="float-left"
+                             />
+                        <div class="float-left">
+                            <strong>12</strong>
+                            <span class="units">°C | <a href="#">°F</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            Precipitation: 0%
+                        </li>
+                         <li>
+                            Humidity: 64%
+                        </li>
+                        <li>
+                            Wind: 2 km/h
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-6">
-                <ul>
-                    <li>
-                        Precipitation: 0%
-                    </li>
-                    <li>
-                        Humidity: 64%
-                    </li>
-                    <li>
-                        Wind: 2 km/h
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <small>
+         </div>
+         <small>
             <a href=""
-               target="_blank">
+            target="_blank">
             Open-source code</a>
             by Ashley 
         </small>
+        </div>
     </div>
     <script>
         src="src/app.js"
